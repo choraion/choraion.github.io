@@ -112,7 +112,7 @@ li {
   align-items: center;
   justify-content: center;
   /*height: 86vh;*/
-  height: 30vh;
+  height: 25vh;
 }
 
 .logo {
@@ -293,6 +293,7 @@ li {
 
 .about-body {
   flex: 1;
+  text-align: center;
 }
 
 .about-body p:not(:last-child) {
@@ -386,6 +387,37 @@ li {
 
 .rate5:after {
   width: 100px;
+}
+
+/*--------------------------------
+ Submit
+---------------------------------*/
+.submit-list {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.submit-item {
+  width: 100px;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.submit-text {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.submit-image-wrapper {
+  flex: 0 0 220px;
+  margin-right: 40px;
+}
+
+.submit-image {
+  border-radius: 50%;
+  box-shadow: 0 0 50px 0 #d9d9d9;
 }
 
 /*--------------------------------
@@ -615,7 +647,7 @@ li {
   }
 
   /* Contact */
-  .contact-item {
+  .submit-item {
     width: 40px;
     margin: 0 10px;
   }
